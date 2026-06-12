@@ -9,7 +9,11 @@ Upload a PDF, generate an AI summary, and ask questions about its content using 
 - Question answering using RAG (Retrieval-Augmented Generation)
 - FAISS vector store for semantic search
 - HuggingFace embeddings (`all-MiniLM-L6-v2`)
-- 
+
+## 🖥️ Demo
+
+> Live App: https://optimusautomatedocumentsummarizerqnabot-jymh7zgjk2oqwnd8rwemd2.streamlit.app/
+
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
