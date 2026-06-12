@@ -9,6 +9,16 @@ Upload a PDF, generate an AI summary, and ask questions about its content using 
 - Question answering using RAG (Retrieval-Augmented Generation)
 - FAISS vector store for semantic search
 - HuggingFace embeddings (`all-MiniLM-L6-v2`)
+- 
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Streamlit | Web UI |
+| Groq | LLM inference (LLaMA 3.3 70B) |
+| LangChain | Document loading & text splitting |
+| FAISS | Vector similarity search |
+| HuggingFace | Text embeddings |
 
 ## ⚙️ Local Setup
 
@@ -29,16 +39,6 @@ streamlit run app.py
 ```
 
 > Get a free Groq API key at [console.groq.com](https://console.groq.com)
-
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| Streamlit | Web UI |
-| Groq | LLM inference (LLaMA 3.3 70B) |
-| LangChain | Document loading & text splitting |
-| FAISS | Vector similarity search |
-| HuggingFace | Text embeddings |
 
 ## 👤 Author
 
